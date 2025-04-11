@@ -1,0 +1,136 @@
+.about {
+  padding: 70px 0;
+  background: #FFFFFF;
+}
+
+.about-title {
+  width: 563px;
+  height: 60px;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about-content {
+  width: 1240px;
+  height: 331px;
+  margin: 35px auto;
+  padding: 40px;
+  background: #F6F6F6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 114px;
+}
+
+.about-logo {
+  width: 266px;
+  height: 191px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.about-text h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #000000;
+  margin: 0;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-description p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  margin: 0;
+}
+
+.know-more-btn {
+  align-self: flex-start;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  background: linear-gradient(90deg, #AF780C 0%, #FCD358 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.divider {
+  width: 1105px;
+  height: 4.5px;
+  margin: 0 auto;
+  position: relative;
+  background: #BBBBBB;
+  border-radius: 2.25px;
+}
+
+.divider-icon {
+  position: absolute;
+  right: -56.25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 112.5px;
+  height: 14.29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider-icon::before,
+.divider-icon::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 14.29px;
+  border: 1.56248px solid #000000;
+}
+
+.divider-icon::before {
+  transform: rotate(180deg);
+  right: 0;
+}
+
+.divider-icon::after {
+  left: 0;
+} 

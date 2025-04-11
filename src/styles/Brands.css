@@ -1,0 +1,106 @@
+.brands {
+  padding: 70px 0;
+  margin-top: 20px;
+}
+
+.brands-bg {
+  width: 100%;
+  background: #080808;
+  padding: 70px 0 100px;
+}
+
+.brands .section-title {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+  max-width: 1240px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.brand-card {
+  width: 393px;
+  height: 341px;
+  background: rgba(76, 76, 76, 0.41);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.brand-logo {
+  width: 227px;
+  height: 73px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10px;
+}
+
+#ponnusamy {
+  background-image: url('https://via.placeholder.com/227x73/000000/FCD358?text=Ponnusamy');
+}
+
+#cheap-best {
+  background-image: url('https://via.placeholder.com/229x51/FFFFFF/000000?text=CHEAP+%26+BEST');
+  width: 229px;
+  height: 51px;
+}
+
+#sultans {
+  background-image: url('https://via.placeholder.com/219x73/000000/FCD358?text=Sultans+Biryani');
+}
+
+#jonahs {
+  background-image: url('https://via.placeholder.com/130x98/000000/FCD358?text=Jonahs+Bistro');
+  width: 130px;
+  height: 98px;
+}
+
+#fx {
+  background-image: url('https://via.placeholder.com/247x116/F44336/FFFFFF?text=FX');
+  width: 247px;
+  height: 116px;
+}
+
+#slam {
+  background-image: url('https://via.placeholder.com/143x66/FFFFFF/000000?text=SLAM');
+  width: 143px;
+  height: 66px;
+}
+
+.divider {
+  width: 336px;
+  height: 1px;
+  background: #3C3C3C;
+  margin: 37px 0 27px;
+}
+
+.brand-description {
+  width: 296px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.brand-card .know-more {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  position: absolute;
+  bottom: 25px;
+} 

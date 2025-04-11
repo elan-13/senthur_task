@@ -1,0 +1,129 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 514px;
+  margin-top: 90px;
+}
+
+.hero-slide {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
+.hero-image {
+  width: 1240px;
+  height: 514px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: url('https://source.unsplash.com/random/1240x514/?food,biryani');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 327px;
+  height: 150px;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.62);
+  backdrop-filter: blur(2px);
+  border-radius: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo {
+  width: 256px;
+  height: 86px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brand-logo.sulthans {
+  background-image: url('https://via.placeholder.com/256x86/000000/FCD358?text=Sulthans');
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 26px;
+  right: 26px;
+}
+
+.know-more-circle {
+  width: 129px;
+  height: 129px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.know-more-circle span {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+.slider-controls {
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-indicator {
+  width: 1105px;
+  height: 4.5px;
+  margin-bottom: 15px;
+}
+
+.slider-progress {
+  width: 1105px;
+  height: 4.5px;
+  background: #BBBBBB;
+  border-radius: 2.25px;
+  position: relative;
+}
+
+.progress-bar {
+  position: absolute;
+  width: 208.69px;
+  height: 4.5px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90deg, #AF780C 0%, #FCD358 100%);
+  border-radius: 2.25px;
+}
+
+.slider-arrows {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  width: 50px;
+  height: 14.29px;
+  background: transparent;
+  border: 1.56248px solid #000000;
+  cursor: pointer;
+}
+
+.arrow.prev {
+  transform: rotate(180deg);
+} 

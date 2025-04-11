@@ -1,0 +1,121 @@
+.footer {
+  background: #080808;
+  padding: 42px 0 30px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 50px;
+}
+
+.footer-brand {
+  width: 298px;
+}
+
+.footer-logo {
+  width: 118px;
+  height: 85px;
+  background-image: url('https://via.placeholder.com/118x85/FCD358/000000?text=SPR');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.footer-brand p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.footer-links {
+  display: flex;
+  gap: 114px;
+}
+
+.footer-links-column h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.footer-links-column ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-links-column ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #BFBFBF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links-column ul li a:hover {
+  color: #FCD358;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-item .label {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #E0DFFE;
+  opacity: 0.4;
+}
+
+.contact-item a, 
+.contact-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #E0DFFE;
+  text-decoration: none;
+}
+
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.49);
+  margin-bottom: 17px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright, 
+.privacy-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #B5B5B5;
+  text-decoration: none;
+}
+
+.privacy-link:hover {
+  text-decoration: underline;
+} 
