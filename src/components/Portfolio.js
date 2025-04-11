@@ -36,11 +36,6 @@ const Portfolio = () => {
               front-end technologies like React.js, HTML5, CSS3, and back-end 
               technologies including Node.js and Express.
             </p>
-            <p>
-              I enjoy solving complex problems and creating intuitive, engaging user 
-              experiences. My background in both design and development allows me to 
-              create applications that are not only functional but also aesthetically pleasing.
-            </p>
             
             <div className="skills-section">
               <h3>Skills</h3>
@@ -50,46 +45,8 @@ const Portfolio = () => {
                 <span className="skill-tag">HTML5</span>
                 <span className="skill-tag">CSS3</span>
                 <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">Express</span>
+                <span className="skill-tag">Express.js</span>
                 <span className="skill-tag">MongoDB</span>
-                <span className="skill-tag">Git</span>
-                <span className="skill-tag">Responsive Design</span>
-                <span className="skill-tag">UI/UX</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="projects-section">
-          <h3>Featured Projects</h3>
-          <div className="projects-grid">
-            <div className="project-card">
-              <div className="project-image"></div>
-              <h4>SPR Global Website</h4>
-              <p>A responsive website for SPR Global showcasing their brands and business opportunities.</p>
-              <div className="project-links">
-                <a href="#" className="project-link">View Live</a>
-                <a href="#" className="project-link">GitHub</a>
-              </div>
-            </div>
-            
-            <div className="project-card">
-              <div className="project-image"></div>
-              <h4>E-Commerce Platform</h4>
-              <p>A full-featured online shopping platform with user authentication and payment processing.</p>
-              <div className="project-links">
-                <a href="#" className="project-link">View Live</a>
-                <a href="#" className="project-link">GitHub</a>
-              </div>
-            </div>
-            
-            <div className="project-card">
-              <div className="project-image"></div>
-              <h4>Task Management App</h4>
-              <p>A productivity application for organizing tasks, with drag-and-drop functionality.</p>
-              <div className="project-links">
-                <a href="#" className="project-link">View Live</a>
-                <a href="#" className="project-link">GitHub</a>
               </div>
             </div>
           </div>

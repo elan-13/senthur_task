@@ -6,32 +6,32 @@ const Brands = () => {
     {
       id: 'ponnusamy',
       name: 'Ponnusamy',
-      description: 'Dive into a culinary journey with Ponnusamy, where traditional flavors meet unmatched quality. Relish the essence of South Indian heritage on your plate.',
+      description: 'Authentic South Indian cuisine with a legacy of flavors.',
     },
     {
       id: 'cheap-best',
       name: 'CHEAP & BEST',
-      description: 'Redefining grooming for men, Cheap and Best offers top-notch salon services at unbeatable prices. Get styled by professionals who understand your needs.',
+      description: 'Affordable grooming services tailored for men.',
     },
     {
       id: 'sultans',
       name: "Sultan's Biryani",
-      description: "Savor the rich taste of Sultan's Biryani, crafted with the finest ingredients and a royal touch. A dish fit for every occasion, it's more than just biryani – it's an experience.",
+      description: "Royal biryani crafted with premium ingredients for every occasion.",
     },
     {
       id: 'jonahs',
       name: "Jonah's Bistro",
-      description: "From continental delicacies to fusion delights, Jonah's Bistro is the perfect spot to unwind and indulge. Great food, great ambiance, and even better memories.",
+      description: "Fusion cuisine and continental delights in a cozy ambiance.",
     },
     {
       id: 'fx',
       name: 'FX',
-      description: 'Elevate your shopping experience with FX, bringing you the best in fashion, lifestyle, and innovation under one roof.',
+      description: 'A one-stop destination for fashion and lifestyle needs.',
     },
     {
       id: 'slam',
       name: 'SLAM',
-      description: 'Dive into a culinary journey with Ponnusamy, where traditional flavors meet unmatched quality. Relish the essence of South Indian heritage on your plate.',
+      description: 'Dynamic sportswear and accessories for active lifestyles.',
     },
   ];
 
@@ -55,4 +55,4 @@ const Brands = () => {
   );
 };
 
-export default Brands; 
+export default Brands;
