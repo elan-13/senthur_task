@@ -13,15 +13,15 @@ const Portfolio = () => {
               {/* Placeholder for profile photo */}
               <div className="photo-placeholder"></div>
             </div>
-            <h3 className="profile-name">Jayant C krishnan</h3>
+            <h3 className="profile-name">Elancheliyan P</h3>
             <p className="profile-title">Full Stack Developer</p>
             
             <div className="social-links">
-              <a href="https://www.linkedin.com/in/jayant-chettur-199057273/" target="_blank" rel="noopener noreferrer" className="social-link linkedin">
+              <a href="www.linkedin.com/in/elancheliyan-palani-01a308257" target="_blank" rel="noopener noreferrer" className="social-link linkedin">
                 <span className="social-icon linkedin-icon"></span>
                 LinkedIn
               </a>
-              <a href="https://github.com/jck-18" target="_blank" rel="noopener noreferrer" className="social-link github">
+              <a href="https://github.com/elan-13" target="_blank" rel="noopener noreferrer" className="social-link github">
                 <span className="social-icon github-icon"></span>
                 GitHub
               </a>
@@ -98,7 +98,7 @@ const Portfolio = () => {
         <div className="contact-section">
           <h3>Get In Touch</h3>
           <p>Feel free to reach out for collaborations or just a friendly chat.</p>
-          <a href="mailto:jayantchettur@gmail.com" className="contact-button">Contact Me</a>
+          <a href="mailto:chezhian9456@gmail.com" className="contact-button">Contact Me</a>
         </div>
       </div>
     </section>
