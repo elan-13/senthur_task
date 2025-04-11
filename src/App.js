@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Welcome from './components/Welcome';
 import Brands from './components/Brands';
 import BusinessOpportunity from './components/BusinessOpportunity';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Welcome />
       <Brands />
       <BusinessOpportunity />
+      <Portfolio />
       <Footer />
     </div>
   );

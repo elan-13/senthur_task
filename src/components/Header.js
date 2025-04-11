@@ -26,6 +26,9 @@ const Header = () => {
             <li className="nav-item">
               <a href="/business">Business Opportunity</a>
             </li>
+            <li className="nav-item">
+              <a href="/portfolio">Portfolio</a>
+            </li>
           </ul>
         </nav>
         <a href="/contact" className="contact-btn">CONTACT US</a>
